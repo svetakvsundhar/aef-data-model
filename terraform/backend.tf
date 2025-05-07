@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "<TERRAFORM_BUCKET>"
-    prefix = "<TERRAFORM_ENV>"
+    bucket = "aef-new-argolis-project-tfe"
+    prefix = "aef-data-model/environments/dev"
   }
 }
